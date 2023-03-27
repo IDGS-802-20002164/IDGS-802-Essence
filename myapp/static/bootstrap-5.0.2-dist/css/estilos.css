@@ -1,0 +1,158 @@
+body{
+    background: url('/static/bootstrap-5.0.2-dist/img/florBody.png') right no-repeat ;
+    background-position: 130% ;
+    background-color: black;
+    height: 100%;
+        margin: 0;
+    
+
+}
+
+
+
+
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FCC2FC;
+    z-index: 100;
+    
+    
+  }
+
+  .nav-link{
+    color: black;
+    
+  }
+
+  .nav-link:hover{
+    color: white;
+    
+  }
+  
+  
+  .Title {
+  
+    font-family: Fasthand;
+  }
+
+  .Title h2 {
+    font-size: 60px;
+  }
+
+ 
+  .footer p{
+    width: 100%;
+    float: left;
+    
+  }
+  
+  .footer{
+    width: 100%;
+  vertical-align: middle;
+  padding-left: 2.8em;
+  padding-right: 2.8em;
+    background-color: #FCC2FC;
+    color: black;
+    
+  }
+
+
+  
+  .redes{
+    width: 50%;
+    display: flex;
+    float: left;
+    margin-top: 3em;
+  }
+  
+  .redes a{
+    font-size: 2em;
+    color: rgba(255, 255, 255, .8);
+    padding-right: .3em;
+    transition: color 0.4s ease;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .redes a:hover{
+    color: rgb(0, 120, 242);
+  }
+  
+ 
+  
+  
+  .pie{
+    width: 100%;
+    display: flex;
+    font-size: .8em;
+  }
+  
+  .pie ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pie a {
+    font-size: .9em;
+    color: black;
+    display: block;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    margin-right: 1.5em;
+    margin-bottom: .9em;
+  }
+  
+  .pie a:hover {
+    color: rgb(0, 120, 242);
+  }
+  
+  
+  .pie .lista1{
+    float: left;
+    
+  }
+
+  .pie .lista1 i{
+    
+    font-size: 32px;
+    
+  }
+  
+  .pie .lista2, .lista3{
+    float: right;
+  }
+  
+  
+  
+
+  
+  .iconosFinales{
+    width: 30%;
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+  }
+  
+  .iconosFinales ul{
+    list-style: none;
+  }
+  
+  .iconosFinales a img{
+    width: 32px;
+    float: right;
+    margin: .5em;
+    transition: color 0.4s ease;
+  }
+  
+  .custom-img {
+    width: 100%;
+    height: 300px; /* O la altura que desees */
+    object-fit: cover; /* Para que la imagen cubra todo el ancho y altura fijados */
+  }
+
+  
+  

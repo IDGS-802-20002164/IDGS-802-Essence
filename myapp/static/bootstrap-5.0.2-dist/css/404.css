@@ -1,0 +1,4 @@
+body {
+    background-image: url("/static/bootstrap-5.0.2-dist/img/404.png");
+    background-size: cover;
+}
